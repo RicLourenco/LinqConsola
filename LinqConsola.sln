@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqConsola", "LinqConsola\LinqConsola.csproj", "{2C2EC277-D70A-4368-8095-5BFB4D341CAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivrariaLinq", "LivrariaLinq\LivrariaLinq.csproj", "{0B932A27-3F65-43CD-89A7-56219753D7FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C2EC277-D70A-4368-8095-5BFB4D341CAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C2EC277-D70A-4368-8095-5BFB4D341CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C2EC277-D70A-4368-8095-5BFB4D341CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C2EC277-D70A-4368-8095-5BFB4D341CAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B932A27-3F65-43CD-89A7-56219753D7FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B932A27-3F65-43CD-89A7-56219753D7FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B932A27-3F65-43CD-89A7-56219753D7FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B932A27-3F65-43CD-89A7-56219753D7FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {791DBC63-AFAC-474A-8695-C489C13856F5}
+	EndGlobalSection
+EndGlobal
