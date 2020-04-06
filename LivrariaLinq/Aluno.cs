@@ -4,10 +4,10 @@
 
     public class Aluno
     {
-        public string PrimeirNome { get; set; }
+        public string PrimeiroNome { get; set; }
         public string Apelido { get; set; }
         public DateTime DataNascimento { get; set; }
         public int DisciplinasFeitas { get; set; }
-        public string NomeCompleto => $"{PrimeirNome} {Apelido}";
+        public string NomeCompleto => $"{PrimeiroNome} {Apelido}";
     }
 }

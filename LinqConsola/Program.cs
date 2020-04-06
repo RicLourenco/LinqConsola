@@ -22,7 +22,7 @@
 
             foreach (var aluno in Alunos)
             {
-                Console.WriteLine($"{aluno.PrimeirNome} {aluno.Apelido} ({aluno.DataNascimento.ToShortDateString()}) Disciplinas feitas: {aluno.DisciplinasFeitas.ToString()}");
+                Console.WriteLine($"{aluno.PrimeiroNome} {aluno.Apelido} ({aluno.DataNascimento.ToShortDateString()}) Disciplinas feitas: {aluno.DisciplinasFeitas.ToString()}");
             }
 
             int TotalDisciplinasFeitas = Alunos.Sum(x=>x.DisciplinasFeitas);
